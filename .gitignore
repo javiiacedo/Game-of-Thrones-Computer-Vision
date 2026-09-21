@@ -1,0 +1,38 @@
+# ==========================================
+# Jupyter Notebooks (Archivos temporales)
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==========================================
+# Python & Caché
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Entornos Virtuales
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Configuración del Editor e IDEs
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Datos y Archivos Pesados (Opcional)
+# ==========================================
+# Si en el futuro usas modelos muy pesados o conjuntos de datos grandes,
+# puedes descomentar la siguiente línea para no subirlos a GitHub:
+# data/raw/
