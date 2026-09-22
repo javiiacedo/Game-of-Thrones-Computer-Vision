@@ -12,6 +12,9 @@ __pycache__/
 *$py.class
 *.so
 *.tmp
+*.tmp.*
+.tmp/
+tmp/
 
 # ==========================================
 # Entornos Virtuales
@@ -39,3 +42,6 @@ Thumbs.db
 # Si en el futuro usas modelos muy pesados o conjuntos de datos grandes,
 # puedes descomentar la siguiente línea para no subirlos a GitHub:
 # data/raw/
+# Archivos temporales de Google Drive
+.tmp.driveupload/
+.tmp.drivesync/
