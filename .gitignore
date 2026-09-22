@@ -11,6 +11,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.tmp
 
 # ==========================================
 # Entornos Virtuales
@@ -29,6 +30,8 @@ venv.bak/
 .idea/
 *.swp
 *.swo
+.DS_Store
+Thumbs.db
 
 # ==========================================
 # Datos y Archivos Pesados (Opcional)
