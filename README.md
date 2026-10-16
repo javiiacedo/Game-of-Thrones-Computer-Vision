@@ -99,8 +99,8 @@ To facilitate qualitative and quantitative observation, the notebook embeds dyna
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/cv-got-practica.git
-   cd cv-got-practica
+   git clone https://github.com/<your-username>/Game-of-Thrones-Computer-Vision.git
+   cd Game-of-Thrones-Computer-Vision
    ```
 
 2. **Create and activate a virtual environment (recommended):**
