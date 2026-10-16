@@ -65,14 +65,9 @@ Synthesis and mitigation of stochastic image degradation:
 
 ### 5. Edge Detection & Sharpness Analysis
 First- and second-order derivative operators for structural boundary detection:
-- **Sobel Operators:** Approximating directional gradients:
-  $$G_x = \begin{bmatrix} -1 & 0 & 1 \\ -2 & 0 & 2 \\ -1 & 0 & 1 \end{bmatrix}, \quad G_y = \begin{bmatrix} -1 & -2 & -1 \\ 0 & 0 & 0 \\ 1 & 2 & 1 \end{bmatrix}$$
-  $$\|\nabla I\| = \sqrt{G_x^2 + G_y^2}, \quad \theta = \operatorname{arctan2}(G_y, G_x)$$
-- **Laplacian Operator:** Second-order differential operator for zero-crossing analysis:
-  $$\nabla^2 I = \frac{\partial^2 I}{\partial x^2} + \frac{\partial^2 I}{\partial y^2}$$
-- **Unsharp Masking:** High-boost filtering to emphasize high-frequency texture and edges:
-  $$I_{\text{sharp}} = I + \alpha \cdot (I - I_{\text{blurred}})$$
-
+- **Sobel Operators:** Approximating directional gradients
+- **Laplacian Operator:** Second-order differential operator for zero-crossing analysis
+- **Unsharp Masking:** High-boost filtering to emphasize high-frequency texture and edges
 ---
 
 ## Interactive Controls (`ipywidgets`)
